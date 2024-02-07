@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1to100</title>
+ <link href="https://img.icons8.com/ios/50/numbers-input-form.png" rel="icon">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ani.css@1.0.2/dist/css/ani.min.css">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="game-container darish-background">
+      <h1 class="ani-txt-d">Game - 1to100</h1>
+      <br>
+      <p class="instruction ani-txt-m">Guess a number between 1 and 100:</p>
+      <input type="number" id="guessInput" class="guess-input" placeholder="Enter your guess">
+      <button onclick="checkGuess()" class="guess-button ani-btn-q">Submit Guess</button>
+      <p id="message" class="message"></p>
+      <button onclick="newGame()" class="new-game-button ani-btn-m">New Game</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@keyframes darishAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.darish-background {
+
+  background: linear-gradient(to right, #ffcc00, #ff6a00, #b300ff, #00ffcc);
+  background-size: 400% 400%;
+  animation: darishAnimation 10s infinite;
+}
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.container {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 20%;
+  color: white;
+}
+
+.game-container {
+  
+  padding: 30px;
+  border-radius: 3px;
+  
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.instruction {
+  margin-bottom: 15px;
+}
+
+.guess-input {
+  padding: 15px;
+  font-size: 18px;
+  width: 80%;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.guess-button,
+.new-game-button {
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+.new-game-button {
+  padding: 10px 15px;
+}
+
+.guess-button:hover,
+.new-game-button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 20px;
+  text-align: center;
+}
