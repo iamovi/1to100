@@ -1,2 +1,4 @@
-# 1to100
-10 to 100 number guessing game.
+![banner](https://cdn.jsdelivr.net/gh/iamovi/1to100/.github/banner.jpg)
+
+## Website /
+[https://iamovi.github.io/1to100/](https://iamovi.github.io/1to100/)
